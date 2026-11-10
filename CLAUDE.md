@@ -7,7 +7,7 @@ The full plan is in `docs/spec.md`. Read the section for the current phase befor
 1. Read `STATUS.md` to see the current phase and the next task.
 2. Work on one GitHub issue at a time, on its own branch.
 3. Open one pull request per task. Ian merges; the agent never merges.
-4. With each PR, explain the change in plain English and add 2 to 3 quiz questions to `LEARNING.md`.
+4. With each PR, explain the change in plain English and quiz Ian in the project thread (never on GitHub). Quiz answers and the learning log live in the private repo `juris-rag-notes`, not here.
 5. Update `STATUS.md` at the end of the session.
 
 ## Hard rules
