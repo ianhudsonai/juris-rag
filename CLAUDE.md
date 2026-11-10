@@ -25,3 +25,13 @@ The full plan is in `docs/spec.md`. Read the section for the current phase befor
 - Cloud threads by default. Docker and PostgreSQL 16 are available; the dev database runs there.
 - Neon is production only. Production ingest and migrations run from GitHub Actions.
 - In cloud threads, `gh issue` and `gh pr` are blocked. Use the built-in GitHub tools or `gh api`.
+
+## Agent skills
+
+### Issue tracker
+
+Issues live in GitHub Issues for `ianhudsonai/juris-rag`, reached through the built-in GitHub tools or `gh api`. See `docs/agents/issue-tracker.md`.
+
+### Domain docs
+
+Single-context: one `GLOSSARY.md` and `docs/adr/` at the repo root. See `docs/agents/domain.md`.
