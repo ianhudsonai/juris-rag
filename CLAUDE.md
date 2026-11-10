@@ -14,6 +14,8 @@ The full plan is in `docs/spec.md`. Read the section for the current phase befor
 - No secrets in code, prompts, issues or commits. Keys live in the environment.
 - Never edit `evals/data/`, saved baselines or the held-out split.
 - Ask before any run that could cost more than US$2. Budget cap is US$10 a month.
+- No AI attribution in commit messages or PR descriptions (no `Co-Authored-By` trailers,
+  no "Generated with" lines, no session links).
 - New domain terms go in `GLOSSARY.md`.
 - Ian hand-writes: `rrf()`, the nDCG/recall/MRR metrics, the citation validator,
   the token histogram script, and one SQL query per phase. Review these, do not write them.
